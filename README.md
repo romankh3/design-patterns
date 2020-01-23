@@ -1,35 +1,13 @@
 ## Overview
-Repository creates for fast running development process with configuration, which are the same from project to project.
+Project, which contains examples of the design patterns.
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/romankh3/respository-template/pulls)
-
-Added:
-*   Maven build tool
-*   GitHub Action for Maven
-*   Apache 2.0 license
-*   Code of conduct file
-*   Contributing file
-*   template README
-*   Release notes
-*   .gitginore file
-*   Issue templates
-
-### Propositions
-If you have any ideas of what can be added to `template-repository` - welcome!
-
-## Usage
-to start using this template need to update next places:
-
-0. put `Use this template` button on the repository.
-1. update name and year fro [LICENSE](LICENSE) part.
-2. update About and Usage parts in README. Remove other projects if wants it.
-3. update Authors chapter.
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/romankh3/design-patterns/pulls)
 
 ## Building
-...
+main methods of each pattern will start the example of it.
 
 ## Troubleshooting
-...
+to be added
 
 ## Release Notes
 Can be found in [RELEASE_NOTES](RELEASE_NOTES.md).
