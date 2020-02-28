@@ -1,4 +1,4 @@
-package com.github.romankh3.adapter.round;
+package com.github.romankh3.designpatterns.adapter.round;
 
 /**
  * RoundHoles are compatible with RoundPegs.
