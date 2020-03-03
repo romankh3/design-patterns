@@ -1,7 +1,7 @@
-package com.github.romankh3.designpatterns.adapter;
+package com.github.romankh3.designpatterns.adapter.example1;
 
-import com.github.romankh3.designpatterns.adapter.round.RoundPeg;
-import com.github.romankh3.designpatterns.adapter.square.SquarePeg;
+import com.github.romankh3.designpatterns.adapter.example1.round.RoundPeg;
+import com.github.romankh3.designpatterns.adapter.example1.square.SquarePeg;
 
 /**
  * Adapter allows fitting square pegs into round holes.

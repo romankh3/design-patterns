@@ -1,4 +1,4 @@
-package com.github.romankh3.designpatterns.adapter.square;
+package com.github.romankh3.designpatterns.adapter.example1.square;
 
 /**
  * SquarePegs are not compatible with RoundHoles (they were implemented by
