@@ -1,7 +1,8 @@
 package com.github.romankh3.designpatterns.abstractfactory;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
 
 public class AbstractFactoryTest {
 
@@ -11,8 +12,8 @@ public class AbstractFactoryTest {
         AbstractFactory factory = new LightAbstractFactory();
 
         //then
-        Assert.assertTrue(factory.createAlert() instanceof LightAlert);
-        Assert.assertTrue(factory.createButton() instanceof LightButton);
+        assertTrue(factory.createAlert() instanceof LightAlert);
+        assertTrue(factory.createButton() instanceof LightButton);
     }
 
     @Test
@@ -21,7 +22,7 @@ public class AbstractFactoryTest {
         AbstractFactory factory = new DarkAbstractFactory();
 
         //then
-        Assert.assertTrue(factory.createButton() instanceof DarkButton);
-        Assert.assertTrue(factory.createAlert() instanceof DarkAlert);
+        assertTrue(factory.createButton() instanceof DarkButton);
+        assertTrue(factory.createAlert() instanceof DarkAlert);
     }
 }

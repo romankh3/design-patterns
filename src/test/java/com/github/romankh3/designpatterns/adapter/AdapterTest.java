@@ -1,6 +1,6 @@
 package com.github.romankh3.designpatterns.adapter;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class AdapterTest {
 

@@ -1,7 +1,8 @@
 package com.github.romankh3.designpatterns.decorator;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 public class DecoratorTest {
 
@@ -15,7 +16,7 @@ public class DecoratorTest {
 
         Decorator doublePlus5Decorator = new DoubleDecorator(plus5Decorator);
 
-        Assert.assertEquals(12, doublePlus5Decorator.calculateCost());
+        assertEquals(12, doublePlus5Decorator.calculateCost());
     }
 
 }
