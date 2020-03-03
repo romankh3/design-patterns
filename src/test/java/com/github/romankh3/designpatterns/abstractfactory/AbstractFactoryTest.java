@@ -2,6 +2,12 @@ package com.github.romankh3.designpatterns.abstractfactory;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.github.romankh3.designpatterns.abstractfactory.dark.DarkAbstractFactory;
+import com.github.romankh3.designpatterns.abstractfactory.dark.DarkAlert;
+import com.github.romankh3.designpatterns.abstractfactory.dark.DarkButton;
+import com.github.romankh3.designpatterns.abstractfactory.light.LightAbstractFactory;
+import com.github.romankh3.designpatterns.abstractfactory.light.LightAlert;
+import com.github.romankh3.designpatterns.abstractfactory.light.LightButton;
 import org.junit.jupiter.api.Test;
 
 public class AbstractFactoryTest {
